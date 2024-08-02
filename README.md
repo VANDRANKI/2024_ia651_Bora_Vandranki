@@ -49,16 +49,23 @@ The dataset encompasses a wide array of variables:
 ### Correlation Analysis
 
 - A correlation matrix was utilized to understand the interdependencies between variables. Notably, health conditions such as `CardiovascularDisease`, `Diabetes`, `Depression`, and `Hypertension` showed a higher correlation with the Alzheimer’s diagnosis than lifestyle factors.
+  <img src="/plot0.png" alt="Correlation Matrix">
+
 
 ### Age and Gender Impact
 
 - The distribution of `Age` relative to Alzheimer’s diagnosis revealed higher diagnosis rates in older age groups. 
 - Gender comparison indicated differences in diagnosis rates between males and females, suggesting potential biological or social factors influencing Alzheimer's prevalence.
+<img src="/plot1.png" alt="Impact1">
+<img src="/plot2.png" alt="Impact2">
+<img src="/plot3.png" alt="Impact3">
+<img src="/plot4.png" alt="Impact4">
 
 ### Lifestyle and Health Conditions
 
 - Plots comparing lifestyle factors (`Smoking`, `AlcoholConsumption`, `PhysicalActivity`, `DietQuality`, `SleepQuality`) with the diagnosis did not show distinct patterns, indicating these factors alone are not strong predictors of Alzheimer’s.
 - Health conditions displayed a clearer association with Alzheimer's diagnosis, emphasizing the importance of medical history in predictive modeling.
+<img src="/plot5.png" alt="Factors">
 
 ### Cholesterol and Cognitive Impairment
 
@@ -67,6 +74,7 @@ The dataset encompasses a wide array of variables:
 ### BMI Analysis
 
 - BMI was categorized into `Underweight`, `Normal Weight`, `Overweight`, and `Obesity`. The analysis showed varying rates of Alzheimer's diagnosis across these categories, underscoring the role of physical health in cognitive decline.
+<img src="/plot6.png" alt="BMI">
 
 The EDA provided deep insights into the dataset, highlighting key variables that could influence the diagnosis of Alzheimer's. The findings from this analysis will guide the feature selection and model development phases, aiming to create a predictive model that is both accurate and reliable in diagnosing Alzheimer’s disease.
 
@@ -108,7 +116,7 @@ The models were evaluated based on their accuracy and ROC AUC scores both before
 # Visualization
 
 ROC-AUC curves were plotted to visually represent the performance of each model across different configurations. These plots are particularly useful in showing the trade-off between sensitivity and specificity and to compare the overall diagnostic ability of the models.
-
+<img src="/plot7.png" alt="ROC AUC">
 # Conclusion
 
 The Random Forest model consistently outperformed the other models in terms of both accuracy and ROC AUC scores, with the highest scores observed after applying SMOTE and tuning. This indicates that Random Forest is particularly well-suited to handling the complexities of predicting Alzheimer's disease from the dataset used. Furthermore, the benefits of SMOTE in managing class imbalance and enhancing model performance were clearly demonstrated, making it a valuable technique for similar classification problems in the medical field. This comprehensive evaluation ensures that the selected model is robust, achieving high accuracy(90%) and excellent discriminative ability, making it a reliable tool in assisting the diagnosis of Alzheimer's disease.
