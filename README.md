@@ -79,7 +79,7 @@ The dataset encompasses a wide array of variables:
 The EDA provided deep insights into the dataset, highlighting key variables that could influence the diagnosis of Alzheimer's. The findings from this analysis will guide the feature selection and model development phases, aiming to create a predictive model that is both accurate and reliable in diagnosing Alzheimer’s disease.
 
 
-# Model Selection adn Evaluation
+# Model Selection and Evaluation
 Given the classification nature of the Alzheimer's disease prediction problem, several machine learning models were evaluated to determine the best fit. The chosen models were Logistic Regression, Support Vector Machine (SVM), and Random Forest due to their effectiveness in handling classification tasks.
 
 
